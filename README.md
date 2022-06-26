@@ -157,9 +157,9 @@ The following tools were used in building the project:<br><br>
         </li>
         <li>Create a GraphQL Code Generator file: codegen.yml</li>
         <li>Create a GraphQL directory: ./src/graphql</li>
-        <li>Inside GraphQL directory, create 
-          <br>Mutations folder: ./src/graphql/mutations/
-          <br>Queries folder:   ./src/graphql/queries/
+        <li>Inside GraphQL directory, create <br>
+          * Mutations folder: ./src/graphql/mutations/<br>
+          * Queries folder:   ./src/graphql/queries/
         </li>
         <li>Create a file to each query into Queries folder</li>
         <li>Create a file to each mutation into Mutations folder</li>
