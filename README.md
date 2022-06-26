@@ -149,11 +149,11 @@ The following tools were used in building the project:<br><br>
     <br>
     <li>Part 5 - Deploy, CodeGen and next steps
       <ul>
-        <li>Install GraphQL Code Generator:
-          <br>npm i @graphql-codegen/cli
-          <br>npm i @graphql-codegen/typescript
-          <br>npm i @graphql-codegen/typescript-operations
-          <br>npm i @graphql-codegen/typescript-react-apollo
+        <li>Install GraphQL Code Generator:<br>
+          * npm i @graphql-codegen/cli<br>
+          * npm i @graphql-codegen/typescript<br>
+          * npm i @graphql-codegen/typescript-operations<br>
+          * npm i @graphql-codegen/typescript-react-apollo
         </li>
         <li>Create a GraphQL Code Generator file: codegen.yml</li>
         <li>Create a GraphQL directory: ./src/graphql</li>
@@ -164,8 +164,8 @@ The following tools were used in building the project:<br><br>
         <li>Create a file to each query into Queries folder</li>
         <li>Create a file to each mutation into Mutations folder</li>
         <li>Use Queries and Mutations files in the respective components</li>
-        <li>Add codegen to package.json file:
-          <br>"codegen": "graphql-codegen"
+        <li>Add codegen to package.json file:<br>
+          * "codegen": "graphql-codegen"
         </li>
         <li>Execute GraphQL Code Gen file: npm run codegen</li>
         <li>Use hooks generated from GraphQL Code Gen at respective component files</li>
