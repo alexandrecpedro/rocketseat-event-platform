@@ -1,0 +1,18 @@
+schema: https://api-sa-east-1.graphcms.com/v2/cl4ov6yip19jy01xk9jw9gzcf/master
+
+documents: './src/graphql/**/*.graphql'
+
+generates:
+  ./src/graphql/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      reactApolloVersion: 3
+      # creates an specific hook for each query / mutation
+      withHooks: true
+      # High Order Component (HOC) = older default from React, when working with classes in React
+      withHOC: false
+      # True = creates a component to each query (default)
+      withComponents: false
