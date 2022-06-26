@@ -4,7 +4,7 @@
 <br>
 
 <div align = 'center' justify-content = 'space-around' >
-   <img height=' 80px ' src= './project/logo/rocketseat_logo.svg' alt = 'Rocketseat logo' >
+   <img height=' 80px ' src= './src/assets/project/logo/rocketseat_logo.svg' alt = 'Rocketseat logo' >
 </div>
 <br>
 <br>
